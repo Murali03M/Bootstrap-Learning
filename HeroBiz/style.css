@@ -1,0 +1,105 @@
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+}
+
+
+body 
+{
+    font-family: 'Inter', sans-serif;
+   
+}
+
+.nav_Section{
+    font-size: 15px;
+}
+
+
+.nav_button {
+    background-color: #0EA2BD;
+    color: white;
+}
+
+
+.nav_button:hover
+{
+    color:  #0EA2BD;
+    background-color: #39494c;
+}
+
+
+    .home
+    {
+        background: url(https://bootstrapmade.com/demo/templates/HeroBiz/assets/img/hero-bg.png) center;
+       
+        
+    }
+    
+
+
+.animation {
+
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    
+
+}
+
+
+.icon 
+{
+
+    color: #0EA2BD;
+}
+
+.home-box
+{
+    transition: all 0.2s ease-in-out;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+
+}
+
+.home-box:hover 
+{
+    background-color: white;
+    margin-top: 20px;
+  
+    box-shadow: 0 0 20.5px -7px 
+
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0EA2BD; 
+    color: #fff; 
+}
+
+/* Customize the inactive nav pill color */
+.nav-pills .nav-link {
+    background-color: #f8f9fa; /* Change to your desired color */
+    color: #495057; /* Change to your desired text color */
+}
+
+.box-small{
+    margin-top: 20px;
+    box-shadow: 0 0 20.5px -7px 
+
+}
